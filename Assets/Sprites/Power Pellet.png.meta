@@ -109,12 +109,12 @@ TextureImporter:
       name: Power Pellet_0
       rect:
         serializedVersion: 2
-        x: 11
-        y: 44
-        width: 9
-        height: 9
+        x: 9
+        y: 41
+        width: 14
+        height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -130,12 +130,12 @@ TextureImporter:
       name: Power Pellet_1
       rect:
         serializedVersion: 2
-        x: 43
-        y: 44
-        width: 9
-        height: 9
+        x: 41
+        y: 41
+        width: 14
+        height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -151,12 +151,12 @@ TextureImporter:
       name: Power Pellet_2
       rect:
         serializedVersion: 2
-        x: 11
-        y: 12
-        width: 9
-        height: 9
+        x: 9
+        y: 9
+        width: 14
+        height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -164,27 +164,6 @@ TextureImporter:
       bones: []
       spriteID: d00390574f68364458a5705c8a5608a0
       internalID: 1317804708
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Power Pellet_3
-      rect:
-        serializedVersion: 2
-        x: 43
-        y: 12
-        width: 9
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c54e44d43422c6c4c947fd0e61435ba0
-      internalID: -881812571
       vertices: []
       indices: 
       edges: []
@@ -203,7 +182,7 @@ TextureImporter:
       Power Pellet_2: 1317804708
       Power Pellet_1: -440681637
       Power Pellet_0: 1664216608
-      Power Pellet_3: -881812571
+      Power Pellet_3: 1564447604
   spritePackingTag: 
   pSDRemoveMatte: 0
   userData: 

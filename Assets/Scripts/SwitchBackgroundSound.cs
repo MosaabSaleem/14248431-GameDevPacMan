@@ -7,16 +7,21 @@ public class SwitchBackgroundSound : MonoBehaviour
     // Start is called before the first frame update
     public AudioClip mainMenuAudio;
     public AudioClip normalBackgroundAudio;
+    public AudioSource backgroundSource;
     void Start()
     {
-        AudioSource backgroundSound = GetComponent<AudioSource>();
-        backgroundSound.clip = mainMenuAudio;
-        backgroundSound.Play();
-        backgroundSound.loop = false;
-        new WaitForSeconds(mainMenuAudio.length);
-        backgroundSound.clip = normalBackgroundAudio;
-        backgroundSound.Play();
-        backgroundSound.loop = true;
+        StartCoroutine(BackgroundWait());
+    }
+
+    IEnumerator BackgroundWait()
+    {
+        backgroundSource.clip = mainMenuAudio;
+        backgroundSource.Play();
+        backgroundSource.loop = false;
+        yield return new WaitForSeconds(mainMenuAudio.length);
+        backgroundSource.clip = normalBackgroundAudio;
+        backgroundSource.Play();
+        backgroundSource.loop = true;
     }
 
     // Update is called once per frame

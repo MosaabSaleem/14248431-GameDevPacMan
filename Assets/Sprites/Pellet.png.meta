@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -53,7 +53,7 @@ TextureImporter:
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
-  spriteTessellationDetail: 0
+  spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
@@ -104,114 +104,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: Pellet_0
-      rect:
-        serializedVersion: 2
-        x: 14
-        y: 46
-        width: 4
-        height: 4
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 37be2173330219d47860c66198ed7a02
-      internalID: 2050221950
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Pellet_1
-      rect:
-        serializedVersion: 2
-        x: 46
-        y: 46
-        width: 4
-        height: 4
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: aa1c3034a18e6134ba9f257d391dfe3b
-      internalID: 1785157956
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Pellet_2
-      rect:
-        serializedVersion: 2
-        x: 14
-        y: 14
-        width: 4
-        height: 4
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 07a95d30dd3049a4084bf7e54d9868b3
-      internalID: -1021171551
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Pellet_3
-      rect:
-        serializedVersion: 2
-        x: 46
-        y: 14
-        width: 4
-        height: 4
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 800487a318d17f0409b25997948bb453
-      internalID: -457751864
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    outline:
-    - - {x: -16, y: 7}
-      - {x: -16, y: 16}
-      - {x: -8, y: 16}
-      - {x: -8, y: 7}
-    - - {x: 13, y: 13}
-      - {x: 13, y: 19}
-      - {x: 19, y: 19}
-      - {x: 19, y: 13}
+    sprites: []
+    outline: []
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-    internalID: 1537655665
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      Pellet_1: 1785157956
-      Pellet_2: -1021171551
-      Pellet_0: 2050221950
-      Pellet_3: -457751864
+    nameFileIdTable: {}
   spritePackingTag: 
   pSDRemoveMatte: 0
   userData: 
