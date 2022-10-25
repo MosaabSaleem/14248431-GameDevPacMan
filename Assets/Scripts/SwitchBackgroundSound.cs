@@ -23,4 +23,9 @@ public class SwitchBackgroundSound : MonoBehaviour
         backgroundSource.Play();
         backgroundSource.loop = true;
     }
+
+    private void Update()
+    {
+        
+    }
 }
