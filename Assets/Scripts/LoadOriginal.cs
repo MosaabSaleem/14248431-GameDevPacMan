@@ -16,7 +16,7 @@ public class LoadOriginal : MonoBehaviour
 
     public void message()
     {
-        Debug.Log("pressed");
+        Debug.Log("Button 2 works");
     }
 
     // Start is called before the first frame update
